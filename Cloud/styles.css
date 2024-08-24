@@ -1,0 +1,30 @@
+body{
+    background-color: darkgray;
+    font-family: "Lucida Console";
+}
+.header{
+    display: block;
+    font-size: 3em;
+    height: 5em;
+    width: 100%;
+    border-bottom: solid black; 
+    background-color: lightgray;
+}
+.element{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    align-content: center;
+}
+.element-2{
+    width:45%;
+}
+.textbox{
+    border: solid black;
+}
+
+@media screen and (max-width: 700px){
+    .element-2{
+        width: 100%;
+    }
+}
